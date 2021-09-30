@@ -1,8 +1,8 @@
 import theme from './theme-list.js';
-const inputEl = document.querySelector('.theme-switch__toggle');
-const bodyEl = document.querySelector('body');
+import refs from './refs.js';
 
 const { LIGHT, DARK } = theme;
+const { inputEl, bodyEl } = refs;
 
 abracadabra();
 

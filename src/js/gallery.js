@@ -1,4 +1,4 @@
-import cards from './menu.json';
+import cards from '../db/menu.json';
 import itemsTemplate from '../templates/gallery-items.hbs';
 
 const galleryRef = document.querySelector('.js-menu');
