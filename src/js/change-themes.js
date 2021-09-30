@@ -1,7 +1,8 @@
-import theme from './theme-list.js';
-import refs from './refs.js';
+import { theme } from './theme-list.js';
 
 const { LIGHT, DARK } = theme;
+import refs from './refs.js';
+
 const { inputEl, bodyEl } = refs;
 
 abracadabra();
