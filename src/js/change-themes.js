@@ -1,6 +1,7 @@
+import theme from './theme-list.js';
 const inputEl = document.querySelector('.theme-switch__toggle');
 const bodyEl = document.querySelector('body');
-import theme from './theme-list.js';
+
 const { LIGHT, DARK } = theme;
 
 abracadabra();
