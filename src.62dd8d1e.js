@@ -9,12 +9,12 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"handlebars/dist/handlebars.runtime":"pAws"}],"chxP":[function(require,module,exports) {
 "use strict";var e=r(require("../db/menu.json")),t=r(require("../templates/gallery-items.hbs"));function r(e){return e&&e.__esModule?e:{default:e}}const u=document.querySelector(".js-menu"),n=(0,t.default)(e.default);u.insertAdjacentHTML("beforeend",n);
 },{"../db/menu.json":"Ei4I","../templates/gallery-items.hbs":"OYNI"}],"k5x4":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e={LIGHT:"light-theme",DARK:"dark-theme"};exports.default=e;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.theme=void 0;const e={LIGHT:"light-theme",DARK:"dark-theme"};exports.theme=e;
 },{}],"VyiV":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e={inputEl:document.querySelector(".theme-switch__toggle"),bodyEl:document.querySelector("body")};exports.default=e;
 },{}],"ksu1":[function(require,module,exports) {
-"use strict";var e=s(require("./theme-list.js")),t=s(require("./refs.js"));function s(e){return e&&e.__esModule?e:{default:e}}const{LIGHT:a,DARK:c}=e.default,{inputEl:l,bodyEl:i}=t.default;function n(e){i.classList.contains(a)?(i.classList.replace(a,c),localStorage.setItem("theme",c)):(i.classList.replace(c,a),localStorage.setItem("theme",a))}function r(){const e=localStorage.getItem("theme");e===c?(i.classList.add(e),l.checked=!0):i.classList.add(a)}r(),l.addEventListener("change",n);
+"use strict";var e=require("./theme-list.js"),t=s(require("./refs.js"));function s(e){return e&&e.__esModule?e:{default:e}}const{LIGHT:a,DARK:c}=e.theme,{inputEl:l,bodyEl:i}=t.default;function n(e){i.classList.contains(a)?(i.classList.replace(a,c),localStorage.setItem("theme",c)):(i.classList.replace(c,a),localStorage.setItem("theme",a))}function r(){const e=localStorage.getItem("theme");e===c?(i.classList.add(e),l.checked=!0):i.classList.add(a)}r(),l.addEventListener("change",n);
 },{"./theme-list.js":"k5x4","./refs.js":"VyiV"}],"Focm":[function(require,module,exports) {
 "use strict";require("./js/gallery.js"),require("./js/change-themes.js");
 },{"./js/gallery.js":"chxP","./js/change-themes.js":"ksu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.1a775b60.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service/src.62dd8d1e.js.map
