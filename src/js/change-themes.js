@@ -1,8 +1,7 @@
 import { theme } from './theme-list.js';
-
-const { LIGHT, DARK } = theme;
 import refs from './refs.js';
 
+const { LIGHT, DARK } = theme;
 const { inputEl, bodyEl } = refs;
 
 abracadabra();
