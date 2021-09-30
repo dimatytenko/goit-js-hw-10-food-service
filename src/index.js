@@ -1,2 +1,2 @@
-import './gallery.js';
-import './change-themes.js';
+import './js/gallery.js';
+import './js/change-themes.js';

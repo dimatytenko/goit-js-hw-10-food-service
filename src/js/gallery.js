@@ -1,5 +1,5 @@
 import cards from './menu.json';
-import itemsTemplate from './gallery-items.hbs';
+import itemsTemplate from '../templates/gallery-items.hbs';
 
 const galleryRef = document.querySelector('.js-menu');
 

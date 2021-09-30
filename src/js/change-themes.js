@@ -1,11 +1,7 @@
 const inputEl = document.querySelector('.theme-switch__toggle');
 const bodyEl = document.querySelector('body');
-
-const Theme = {
-  LIGHT: 'light-theme',
-  DARK: 'dark-theme',
-};
-const { LIGHT, DARK } = Theme;
+import theme from './theme-list.js';
+const { LIGHT, DARK } = theme;
 
 abracadabra();
 
