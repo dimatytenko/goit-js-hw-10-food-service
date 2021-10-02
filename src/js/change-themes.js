@@ -4,7 +4,7 @@ import refs from './refs.js';
 const { LIGHT, DARK } = theme;
 const { inputEl, bodyEl } = refs;
 
-abracadabra();
+setTheme();
 
 inputEl.addEventListener('change', onThemeChange);
 
@@ -15,7 +15,7 @@ function onThemeChange(event) {
   }
   changeTheme(DARK, LIGHT);
 }
-function abracadabra() {
+function setTheme() {
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme === DARK) {
     bodyEl.classList.add(savedTheme);
